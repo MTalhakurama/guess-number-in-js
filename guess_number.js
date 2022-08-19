@@ -1,4 +1,4 @@
-const number_to_be_guessed=90;
+const number_to_be_guessed=Math.floor(Math.random() * 100) + 1;
 var totalguess = 10;
 var guessattempt = 0;
 
