@@ -7,7 +7,7 @@ while(totalguess > guessattempt){
  
   guessattempt++ ;
   const guessed_number = prompt('Enter the number :');
-  var guessed_number =parseInt(guessed_number);
+  var Stringtonumber =parseInt(guessed_number);
   if(Number.isNaN(guessed_number)){
   console.log("please enter a valid number:");
     return;
