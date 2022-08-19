@@ -7,7 +7,7 @@ while(totalguess > guessattempt){
  
   guessattempt++ ;
   const guessed_number = prompt('Enter the number :');
-  var Stringtonumber =parseInt(guessed_number);
+  var String_to_number =parseInt(guessed_number);
   if(Number.isNaN(guessed_number)){
   console.log("please enter a valid number:");
     return;
@@ -32,5 +32,6 @@ while(totalguess > guessattempt){
   }
     
 }
- console.log('game lost')
+ console.log('Game lost')
+console.log('Better luck next time')
 
